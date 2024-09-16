@@ -25,10 +25,10 @@ This is a 2D platformer game built using **TypeScript** and **Kaboom.js**, where
 2. Open in your browser using a local host.
 
 ## Technologies Used:
-**Kaboom.js**: JavaScript game programming library for building games.
-**TypeScript**: Typed JavaScript for ensuring code quality and maintainability.
-**HTML/CSS**: For structuring and styling the game interface.
-**Tiled**: To design maps/rooms.
+- **Kaboom.js**: JavaScript game programming library for building games.
+- **TypeScript**: Typed JavaScript for ensuring code quality and maintainability.
+- **HTML/CSS**: For structuring and styling the game interface.
+- **Tiled**: To design maps/rooms.
 
-##Credits
+## Credits:
 This game was inspired by the freeCodeCamp.org course on building a Metroidvania-style game using JavaScript and Kaboom.js. Special thanks to JSLegendDev for the detailed tutorial.
