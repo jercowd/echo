@@ -1,4 +1,6 @@
-import { state } from "../state/globalStateManager.js";
+import { state, statePropsEnum } from "../state/globalStateManager.js";
+import { healthBar } from "../ui/healthBar.js";
+import { makeBlink } from "./entitySharedLogic.js";
 
 export function makePlayer(k) {
   return k.make([
@@ -100,6 +102,19 @@ export function makePlayer(k) {
           })
         );
       },
+      disableControls() {
+        for (const handler of this.controlHandlers) {
+          handler.cancel();
+        }
+      },
+
+      respawnIfOutOfBounds(
+        boundValue,
+        destinationName,
+        previousSceneData = {exitName: null}
+      ) {
+        //TODO
+      },
       setEvents() {
         this.onFall(() => {
           this.play("fall");
@@ -116,6 +131,33 @@ export function makePlayer(k) {
         this.onHeadbutt(() => {
           this.play("fall");
         });
+
+        this.on("heal", () => {
+          state.set(statePropsEnum.playerHp, this.hp());
+          healthBar.trigger("update");
+        });
+
+        this.on("hurt", () => {
+          makeBlink(k, this);
+          if (this.hp() > 0) {
+            state.set(statePropsEnum.playerHp, this.hp());
+            healthBar.trigger("update");
+            return;
+          }
+
+          k.play("boom");
+          this.play("explode");
+          state.set(statePropsEnum.playerHp, state.current().maxPlayerHp);
+        });
+
+        this.onAnimEnd((anim) => {
+          if (anim ==="explode") {
+            k.go("room1");
+          }
+        });
+      },
+      enableDoubleJump() {
+        this.numJumps = 2;
       },
     },
   ]);
