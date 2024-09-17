@@ -31,7 +31,7 @@ This is a 2D platformer game built using **TypeScript** and **Kaboom.js**, where
 - **Tiled**: To design maps/rooms.
 
 ## Deployment
-The application is deployed and accessible at
+The application is deployed and accessible at http://jeremycowden.com/metroidvania/
 
 ## Credits
 This game was inspired by the freeCodeCamp.org course on building a Metroidvania-style game using JavaScript and Kaboom.js. Special thanks to JSLegendDev for the detailed tutorial.
