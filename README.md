@@ -63,3 +63,5 @@ Please ensure all contributions adhere to coding standards and include proper do
 ## Credits
 
 This game was inspired by the freeCodeCamp.org course on building a Metroidvania-style games using JavaScript and Kaboom.js. Special thanks to JSLegendDev for the foundational tutorial and resources that guided the development of this game.
+
+hi
