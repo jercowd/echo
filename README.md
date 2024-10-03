@@ -11,7 +11,7 @@ This game offers a unique blend of exploration and action that captures the esse
 ## How to play
 
 This game is deployed and accessible at:
-http://jeremycowden.com/metroidvania/
+http://jeremycowden.com/echo/
 
 ## Quick Start
 
