@@ -15,10 +15,12 @@ http://jeremycowden.com/echo/
 
 ## Quick Start
 
-1. **Clone the repository**:
+To run the application locally, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/jercowd/metroidvania.git
+git clone https://github.com/jercowd/echo.git
 ```
 
 2. Install dependencies:
