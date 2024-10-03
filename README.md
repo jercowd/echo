@@ -16,17 +16,23 @@ http://jeremycowden.com/echo/
 ## Quick Start
 
 1. **Clone the repository**:
-  ```bash
-  git clone https://github.com/jercowd/metroidvania.git
-  ```
+
+```bash
+git clone https://github.com/jercowd/metroidvania.git
+```
+
 2. Install dependencies:
-  ```bash
-  npm install
-  ```
+
+```bash
+npm install
+```
+
 3. Run the game locally: Use a local development server (e.g., http-server, live-server) to serve the files:
-  ```bash
-  npm run start
-  ```
+
+```bash
+npm run start
+```
+
 4. Access the game in your web browser at http://localhost:PORT.
 
 ## Contributing
@@ -35,19 +41,22 @@ Contributions are encouraged and appreciated! To contribute:
 
 1. Fork the repository.
 2. Create a new branch:
-  ```bash
-  git checkout -b feature/your-feature
-  ```
+
+```bash
+git checkout -b feature/your-feature
+```
 
 3. Commit your changes with clear messages:
-  ```bash
-  git commit -m "Add feature: description"
-  ```
+
+```bash
+git commit -m "Add feature: description"
+```
 
 4. Push to your branch:
-  ```bash
-  git push origin feature/your-feature
-  ```
+
+```bash
+git push origin feature/your-feature
+```
 
 5. Open a pull request for review.
 
@@ -63,5 +72,3 @@ Please ensure all contributions adhere to coding standards and include proper do
 ## Credits
 
 This game was inspired by the freeCodeCamp.org course on building a Metroidvania-style games using JavaScript and Kaboom.js. Special thanks to JSLegendDev for the foundational tutorial and resources that guided the development of this game.
-
-hi
