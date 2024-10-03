@@ -29,13 +29,7 @@ git clone https://github.com/jercowd/echo.git
 npm install
 ```
 
-3. Run the game locally: Use a local development server (e.g., http-server, live-server) to serve the files:
-
-```bash
-npm run start
-```
-
-4. Access the game in your web browser at http://localhost:PORT.
+3. Run the game locally: Use a local development server (e.g., http-server, live-server) to serve the files.
 
 ## Contributing
 
