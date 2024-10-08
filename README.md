@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a 2D platformer built using TypeScript and Kaboom.js, inspired by classic Metroidvania games. Players control a robot navigating through interconnected factory rooms, encountering enemies, and solving puzzles to achieve a final escape. The game emphasizes exploration, smooth room transitions, and dynamic player interaction, providing an engaging and immersive experience.
+This project is a 2D platformer built using JavaScript and Kaboom.js, inspired by classic Metroidvania games. Players control a robot navigating through interconnected factory rooms, encountering enemies, and solving puzzles to achieve a final escape. The game emphasizes exploration, smooth room transitions, and dynamic player interaction, providing an engaging and immersive experience.
 
 ## Why should you play?
 
@@ -61,7 +61,7 @@ Please ensure all contributions adhere to coding standards and include proper do
 ## Technology Stack:
 
 - **Kaboom.js**: JavaScript game development library for building games.
-- **TypeScript**: Typed JavaScript for ensuring code quality and maintainability.
+- **JavaScript**: Core programming logic for game's mechanics, interactions, and overall functionality.
 - **HTML/CSS**: Markup and styles for the user interface and game layout.
 - **Tiled**: Software used to design and export custom room maps and layouts.
 
