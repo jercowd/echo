@@ -62,7 +62,6 @@ Please ensure all contributions adhere to coding standards and include proper do
 
 - **Kaboom.js**: JavaScript game development library for building games.
 - **JavaScript**: Core programming logic for game's mechanics, interactions, and overall functionality.
-- **HTML/CSS**: Markup and styles for the user interface and game layout.
 - **Tiled**: Software used to design and export custom room maps and layouts.
 
 ## Credits
